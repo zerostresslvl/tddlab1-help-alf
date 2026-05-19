@@ -7,8 +7,10 @@
 - bottom left of the map is coordinates 0, 0 
 - in the example we're looking for it's 7, 2
 
-- empty string -> "spaceship lost forever"
+## Test cases that are marked:
+- empty string -> "spaceship lost forever" ✅
 - no X given in the map also lost forever
-- 0, 0 coordinates indicate X is at the bottom left
+- 0, 0 coordinates indicate X is at the bottom left ✅
 - 7, 2 coordinates assignment example that needs to be tested
+- X in the middle of the map -> correct coordinates
 
