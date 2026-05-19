@@ -10,4 +10,9 @@ describe('FindSpaceship', function() {
   it('should return Spaceship lost forever for empty string', function() {
     expect(finder.find("")).toBe("Spaceship lost forever.");
   });
+
+  it('should return spaceship lost forever when no X in map', function() {
+    expect(finder.find(".....")).toBe("Spaceship lost forever.");
+
+  });
 });
