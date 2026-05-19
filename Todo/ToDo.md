@@ -11,5 +11,5 @@
 - empty string -> "spaceship lost forever" ✅
 - no X given in the map also lost forever ✅
 - 0, 0 coordinates indicate X is at the bottom left ✅
-- 7, 2 coordinates assignment example that needs to be tested
+- 7, 2 coordinates assignment example that needs to be tested ✅
 
