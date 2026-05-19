@@ -18,4 +18,8 @@ describe('FindSpaceship', function() {
       expect(finder.find(".....")).toBe("Spaceship lost forever.");
   });
 
+    it('should return [7, 2] for assignment example', function() {
+      expect(finder.find("..........\n..........\n.......X..\n..........\n..........")).toEqual([7, 2]);
+  });
+
 });
