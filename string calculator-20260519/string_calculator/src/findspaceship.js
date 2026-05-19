@@ -6,4 +6,3 @@ if(!map || map.length === 0) {
 }
 };
 
-module.exports = FindSpaceship;

@@ -1,5 +1,3 @@
-const FindSpaceship = require('../src/findspaceship');
-
 describe('FindSpaceship', function() {
   var finder;
 
