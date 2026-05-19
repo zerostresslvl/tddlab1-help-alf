@@ -13,4 +13,9 @@ describe('FindSpaceship', function() {
       expect(finder.find("X")).toEqual([0, 0]);
 
   }); 
+
+  it('should return Spaceship lost forever when no X in map', function() {
+      expect(finder.find(".....")).toBe("Spaceship lost forever.");
+  });
+
 });
