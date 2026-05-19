@@ -1,0 +1,1 @@
+# Planned list of what to do -> will be adjusted accordingly depending on what works and what not
